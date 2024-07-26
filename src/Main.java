@@ -24,9 +24,7 @@ public class Main {
                 minSalari=salary2[i];
             }
         }
-
         System.out.println( " Минимальная сумма трат составила " +  minSalari + " рублей. Максимальная сумма трат  составила " + maxSalari +" рублей.");
-
         System.out.println( );
         System.out.println( " Упражнение 3");
 
