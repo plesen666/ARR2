@@ -8,7 +8,6 @@ public class Main {
 
         for (int i = 0; i < salary.length; i++) {
             sum=sum+salary[i];
-
         }
         System.out.println( " Сумма затрат за месяц составила " + sum+ " рублей.");
         System.out.println( );
