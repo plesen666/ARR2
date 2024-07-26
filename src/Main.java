@@ -35,7 +35,7 @@ public class Main {
 int[] expenses ={ 2020,3030,410,2150,10000};
 int average =0;
         for (int i = 0; i <expenses.length; i++) {
-            average+=expenses[i]/expenses.length;
+            average= average + expenses[i]/expenses.length;
         }
 
 
