@@ -20,8 +20,6 @@ public class Main {
             if (salary2[i] > maxSalari) {
                 maxSalari=salary2[i];
             }
-        }
-        for (int i = 0; i <salary2.length; i++) {
             if (salary2[i] < minSalari){
                 minSalari=salary2[i];
             }
@@ -35,7 +33,7 @@ public class Main {
 int[] expenses ={ 2020,3030,410,2150,10000};
 int average =0;
         for (int i = 0; i <expenses.length; i++) {
-            average+=expenses[i]/expenses.length;
+            average= average + expenses[i]/expenses.length;
         }
 
 
